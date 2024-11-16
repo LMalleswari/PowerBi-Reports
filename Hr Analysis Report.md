@@ -23,21 +23,27 @@ The analysis highlights that attrition is particularly high among employees earn
 - Step 5 : create a new measure to calculate AttritionRate. 
 
 - Step 6 : In the report view,under visualizations select Donut chart ,add EducationFieldcolumn in Legend and Sum of attritionCount column to values to show Attrition by education.
+
 ![Attrition By Education](https://github.com/user-attachments/assets/df6115fc-ce12-4750-91ed-8f1250e862b5)
 
 - Step 7 : In the report view,under visualizations,select matric and add JobRole to rows ,JobSatisfaction to columns and Sum of AttritionCount to values to show JobRole and count of Employees.
+
 ![Job roles](https://github.com/user-attachments/assets/1e105f5f-8299-49f3-a92f-7c6fad847a67)
 
 - Step 8 : In the report view,under visualizations,select stacket column chart and add Agegroup to X-axis and Sum of AttritionCount to Y-axis to show Attrition by Age.
+
 ![Attrition by Age](https://github.com/user-attachments/assets/c76eecfd-7a07-4764-866b-316e91a512d8)
 
 - Step 9 : In the report view,under visualizations,select stacket bar chart and add SlarySlab to Y-axis and Sum of AttritionCount to x-axis to show Attrition by Salary.
+
 ![Attrition by salary](https://github.com/user-attachments/assets/0e89fae2-419c-4269-8843-97cc6d7098be)
 
 - Step 10 : In the report view,under visualizations,select stacket bar chart and add SlaJobRole to Y-axis and Sum of AttritionCount to x-axis to show Attrition by job. 
+
 ![Attirtion by JobRole](https://github.com/user-attachments/assets/16f99130-6e29-4622-b380-1b0eb7fba8e3)
 
-- Step 11 : In the report view,under visualizations,select Area chart and add YearsAtCompany to x-axis and Sum of AttritionCount to y-axis to show Attrition by Experience.  
+- Step 11 : In the report view,under visualizations,select Area chart and add YearsAtCompany to x-axis and Sum of AttritionCount to y-axis to show Attrition by Experience. 
+
 ![Attrition by Experience](https://github.com/user-attachments/assets/ab5bb8df-9ea2-4fcd-b31d-7c6f353f5e7f)
 
 - Step 12 : In the report view,under visualizations,select card and add EmpId count to field to show Counts of Employee. 
@@ -49,9 +55,11 @@ The analysis highlights that attrition is particularly high among employees earn
       AttritionRate = sum(HR_Analytics[AttritionCount])/SUM(HR_Analytics[EmployeeCount])
 
 - Step 14 : In the report view,under visualizations,select card and add AttritionCount to field to show Counts of Attrition. 
+
 ![Cards](https://github.com/user-attachments/assets/3f9b7849-6def-4d34-bef2-0ba11c57276e)
 
 - Step 15 : In the report view,under visualizations,select slicer and add department to field to show all departments. 
+
 ![Departments](https://github.com/user-attachments/assets/419bc3b4-679c-4230-a213-cfb9775caff6)
 
 # Insights
